@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <style>
+        .wrap .wrap_head
+        {
+	        margin-top:0px;
+	        padding-top:0px;
+        }
+
+        .wrap .wrap_head .menu
+        {
+	        margin-top:0px;
+	        margin-left:50px;
+	        /*padding-left:0px;*/
+	        /*padding-top:0px;*/
+	        /*border:solid 1px gray;*/
+        }
+
+        .wrap .wrap_head .menu
+        {
+	        margin-top:0px;
+	        margin-left:50px;
+	        /*padding-left:0px;*/
+	        /*padding-top:0px;*/
+	        /*border:solid 1px gray;*/
+        }
+
+        .menu .menu_item
+        {
+	        float:left;
+	        /*width:50px;*/
+	        height:20px;
+	        padding:5px 50px 5px 50px;
+	        list-style-type:none;
+	        border:solid 1px gray;
+	        margin-left:0px;
+        }
+
+        .menu_item_sub
+        {
+            display:none;
+        }
+    </style>
+
+    <script src="../Js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#item_travel").mouseover(function () {
+                $(".travel").slideDown("slow");
+            });
+            $("#item_travel").mouseout(function () {
+                $(".travel").slideUp("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrap_head">
+        <ul class="menu">
+            <li id="item_travel" class="menu_item"><a class="menu_category" href="../buliding.html">旅游</a></li>
+            <li id="item_food" class="menu_item"><a class="menu_category" href="../buliding.html">美食</a></li>
+            <li id="item_movie" class="menu_item"><a class="menu_category" href="../buliding.html">电影</a></li>
+            <li id="item_music" class="menu_item"><a class="menu_category" href="../buliding.html">音乐</a></li>
+            <li id="item_link" class="menu_item"><a class="menu_category" href="../buliding.html">链接</a></li>
+        </ul>
+        <div style="clear:left"></div>
+        <div class="wrap_head_sub">
+            <ul class="menu_sub">
+                <li class="menu_item_sub travel">
+                    <dl class="cate">
+                        <dt class="title_item_sub">海口地区</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">假日海滩</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">冯小刚电影公社</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">三亚地区</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">亚龙湾</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="page/travel/TianYaHaiJiao.htm" target="_blank">天涯海角</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">蜈支洲岛</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">东线</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">博鳌亚洲论坛</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">铜鼓岭</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">月亮湾</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">东郊椰林</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">西线</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">金山寺</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">临高角</a>
+                        </dd>
+                    </dl>
+                </li>
+
+                <li class="menu_item_sub food">
+                    <dl class="cate">
+                        <dt class="title_item_sub">美食</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">文昌鸡</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">加积鸭</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">和乐蟹</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">东山羊</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">小吃</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">省委鸡翅</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">清补凉</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">鸡屎藤</a>
+                        </dd>
+                    </dl>
+                </li>
+
+                <li class="menu_item_sub movie">
+                    <dl class="cate">
+                        <dt class="title_item_sub">地区</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">内地</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">港台</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">欧美</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">日韩</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">类型</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">科幻片</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">警匪片</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">爱情片</a>
+                        </dd>
+                    </dl>
+                </li>
+
+                <li class="menu_item_sub music">
+                    <dl class="cate">
+                        <dt class="title_item_sub">音乐</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">抒情</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">经典老歌</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">对唱</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">摇滚</a>
+                        </dd>
+                    </dl>
+                    <dl class="cate">
+                        <dt class="title_item_sub">纯音乐</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">钢琴曲</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">轻音乐</a>
+                        </dd>
+                    </dl>
+                </li>
+
+                <li class="menu_item_sub link">
+                    <dl class="cate">
+                        <dt class="title_item_sub">链接</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">政府网站</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">门户网站</a>
+                        </dd>
+                        <dt class="title_item_sub">学习网站</dt>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">C#</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">java</a>
+                        </dd>
+                        <dd class="item_sub">
+                            <a href="buliding.htm" target="_blank">html</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
